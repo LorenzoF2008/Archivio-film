@@ -14,11 +14,11 @@ $films= [
             </head>
             <body>
                 <h1> FILM </h1>
-                <?php foreach($films as $film){ 
+                <?php foreach($films as $film){ ?>
                     <p>Film:<?php echo $film["titolo"];?></p>
                     <p>Anno:<?php echo $film["anno"];?></p>
                     <p>Duarata:<?php echo $film["durata"];?></p>
-                 } ?>
+                <?php } ?>
             </body>
             </html>
             
