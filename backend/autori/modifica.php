@@ -51,7 +51,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $nome = $autore['nome'];
     $cognome = $autore['cognome'];
-    $nazionalita = $autore['nazionalita'] ?? '';
+    $nazionalita = $autore['nazionalità'] ?? '';
     $data_nascita = $autore['data_nascita'] ?? '';
 }
 
