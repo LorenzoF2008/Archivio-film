@@ -30,6 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Gestione dell'upload della locandina (facoltativa)
     $nome_file_locandina = null;
     if (!empty($_FILES['locandina']['name'])) {
+        
         $estensioni_ammesse = ['jpg', 'jpeg', 'png', 'webp'];
         $estensione = strtolower(pathinfo($_FILES['locandina']['name'], PATHINFO_EXTENSION));
  
